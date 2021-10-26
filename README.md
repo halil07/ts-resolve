@@ -1,0 +1,3 @@
+# ts-resolve
+
+Rollup + ESBundle.
