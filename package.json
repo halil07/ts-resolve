@@ -9,7 +9,7 @@
   "author": "halil07",
   "license": "MIT",
   "scripts": {
-    "build": "esbuild src/cli.ts --platform=node --outdir=dist --format=cjs --target=es2018 --external:rollup --external:rollup-plugin-esbuild --bundle",
+    "build": "esbuild src/cli.ts --minify --platform=node --outdir=dist --format=cjs --target=es2018 --external:rollup --external:rollup-plugin-esbuild --bundle",
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
